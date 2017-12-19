@@ -23,8 +23,7 @@ Eight dataset are already given as an example
 All these dataset are downloaded from from UCI Machine learning repository 
 and converted to matlab (.mat) format.
 
-All the matlab formatted datasets used in the paper can be downloaded from
-
+All the matlab (.mat) formatted datasets used in the paper can be downloaded from the "data" folder
 
 Dimension reduction toolkit (by Laurens van der Maaten, Research scientist in machine learning 
 and computer vision,https://lvdmaaten.github.io/drtoolbox/) used here inorder to reduce the features.
