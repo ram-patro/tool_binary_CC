@@ -1,0 +1,9 @@
+function [total_data,total_data_n,total_class,features]=load_data_HillValleywithoutnoiseTraining()
+load HillValleywithoutnoiseTesting_class
+load HillValleywithoutnoiseTesting_data
+load HillValleywithoutnoiseTraining_class
+load HillValleywithoutnoiseTraining_data
+total_data=[HillValleywithoutnoiseTesting_data;HillValleywithoutnoiseTraining_data];
+total_class=[HillValleywithoutnoiseTesting_class;HillValleywithoutnoiseTraining_class];
+total_data_n=normalize_data(total_data);
+features=size(total_data,2);
