@@ -4,6 +4,6 @@ for i=1:size(total_data,2)
         total_data_n(:,i)=total_data(:,i)+abs(min(total_data(:,i)));
         total_data_n(:,i)=total_data_n(:,i)./max(abs(total_data_n(:,i)));
     else
-        total_data_n=(total_data(:,i)./max(abs(total_data(:,i))));
+        total_data_n(:,i)=(total_data(:,i)./max(abs(total_data(:,i))));
     end
 end
