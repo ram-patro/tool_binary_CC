@@ -1,7 +1,7 @@
 This toolbox is implemented by Ramnarayan Patro (Scholar IIIT, Bhubaneswar) 
 
-This is an implementation of the paper "Conditional Classifier- A new approach" 
-submitted to journal "MDPI-DATA", which is awaited for approval.
+This is an implementation of the paper "Conditional Classifier- A new classification approach" 
+submitted to journal "Knowledge-Based Systems, Elsevier", which is awaited for approval.
 
 Authors : Ramnarayan Patro, Subhashree Subudhi, 
 	  Dr. Pradyut Kumar Biswal (IIIT Bhubaneswar, India)
